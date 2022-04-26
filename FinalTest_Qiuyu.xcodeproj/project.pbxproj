@@ -14,6 +14,13 @@
 		0C0F0C4E280A211300606CB1 /* FinalTest_Qiuyu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F0C4C280A211300606CB1 /* FinalTest_Qiuyu.xcdatamodeld */; };
 		0C0F0C50280A211400606CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0F0C4F280A211400606CB1 /* Assets.xcassets */; };
 		0C0F0C53280A211400606CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0F0C51280A211400606CB1 /* LaunchScreen.storyboard */; };
+		0C0F0C5B280A214A00606CB1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F0C5A280A214A00606CB1 /* Country.swift */; };
+		0C0F0C5D280A217400606CB1 /* CountryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F0C5C280A217400606CB1 /* CountryObject.swift */; };
+		0C0F0C5F280A229F00606CB1 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F0C5E280A229F00606CB1 /* InfoViewController.swift */; };
+		0C0F0C62280A352F00606CB1 /* FAVOURITE+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F0C60280A352F00606CB1 /* FAVOURITE+CoreDataClass.swift */; };
+		0C0F0C63280A352F00606CB1 /* FAVOURITE+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0F0C61280A352F00606CB1 /* FAVOURITE+CoreDataProperties.swift */; };
+		0C3A8D9C280D10EA006714E0 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A8D9B280D10EA006714E0 /* FavouriteViewController.swift */; };
+		0C3A8DA0280D1D56006714E0 /* FavouriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3A8D9F280D1D56006714E0 /* FavouriteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		0C0F0C4F280A211400606CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0F0C52280A211400606CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0F0C54280A211400606CB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0F0C5A280A214A00606CB1 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		0C0F0C5C280A217400606CB1 /* CountryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryObject.swift; sourceTree = "<group>"; };
+		0C0F0C5E280A229F00606CB1 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0C0F0C60280A352F00606CB1 /* FAVOURITE+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FAVOURITE+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0C0F0C61280A352F00606CB1 /* FAVOURITE+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FAVOURITE+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0C3A8D9B280D10EA006714E0 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		0C3A8D9F280D1D56006714E0 /* FavouriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,8 @@
 		0C0F0C37280A211300606CB1 = {
 			isa = PBXGroup;
 			children = (
+				0C0F0C60280A352F00606CB1 /* FAVOURITE+CoreDataClass.swift */,
+				0C0F0C61280A352F00606CB1 /* FAVOURITE+CoreDataProperties.swift */,
 				0C0F0C42280A211300606CB1 /* FinalTest_Qiuyu */,
 				0C0F0C41280A211300606CB1 /* Products */,
 			);
@@ -60,7 +76,12 @@
 			children = (
 				0C0F0C43280A211300606CB1 /* AppDelegate.swift */,
 				0C0F0C45280A211300606CB1 /* SceneDelegate.swift */,
+				0C0F0C5A280A214A00606CB1 /* Country.swift */,
 				0C0F0C47280A211300606CB1 /* ViewController.swift */,
+				0C0F0C5E280A229F00606CB1 /* InfoViewController.swift */,
+				0C0F0C5C280A217400606CB1 /* CountryObject.swift */,
+				0C3A8D9B280D10EA006714E0 /* FavouriteViewController.swift */,
+				0C3A8D9F280D1D56006714E0 /* FavouriteTableViewCell.swift */,
 				0C0F0C49280A211300606CB1 /* Main.storyboard */,
 				0C0F0C4F280A211400606CB1 /* Assets.xcassets */,
 				0C0F0C51280A211400606CB1 /* LaunchScreen.storyboard */,
@@ -142,8 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0F0C48280A211300606CB1 /* ViewController.swift in Sources */,
+				0C0F0C62280A352F00606CB1 /* FAVOURITE+CoreDataClass.swift in Sources */,
 				0C0F0C44280A211300606CB1 /* AppDelegate.swift in Sources */,
 				0C0F0C4E280A211300606CB1 /* FinalTest_Qiuyu.xcdatamodeld in Sources */,
+				0C0F0C5F280A229F00606CB1 /* InfoViewController.swift in Sources */,
+				0C0F0C5D280A217400606CB1 /* CountryObject.swift in Sources */,
+				0C0F0C63280A352F00606CB1 /* FAVOURITE+CoreDataProperties.swift in Sources */,
+				0C3A8DA0280D1D56006714E0 /* FavouriteTableViewCell.swift in Sources */,
+				0C0F0C5B280A214A00606CB1 /* Country.swift in Sources */,
+				0C3A8D9C280D10EA006714E0 /* FavouriteViewController.swift in Sources */,
 				0C0F0C46280A211300606CB1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
